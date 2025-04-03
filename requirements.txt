@@ -1,0 +1,12 @@
+Django>=4.2.0
+python-dotenv>=1.0.0
+celery
+jupyter
+pandas
+numpy
+scikit-learn
+requests
+joblib
+djangorestframework 
+seaborn
+matplotlib 
