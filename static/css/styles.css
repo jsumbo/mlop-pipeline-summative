@@ -2,7 +2,7 @@
 
 /* General styles */
 :root {
-  --primary-color: #0d6efd;
+  --primary-color: hsl(216, 73%, 7%), 73%, 7%), 46%, 5%);
   --secondary-color: #6c757d;
   --light-color: #f8f9fa;
   --dark-color: #212529;
