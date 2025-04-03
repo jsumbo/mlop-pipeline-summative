@@ -3,7 +3,7 @@
 A machine learning-based web application for predicting diabetes in patients using various health metrics.
 
 ## Video Demo
-[Watch the Demo Video](https://youtu.be/your-video-id) - Please replace with your actual YouTube video link
+[Demo Video] (https://drive.google.com/drive/folders/1FiJSB7c2m65pjFIgywCorIoK1V5AJ8z-?usp=sharing)  
 
 ## Project Description
 This project is a full-stack machine learning application that predicts diabetes in patients based on various health metrics. The system features:
@@ -23,8 +23,8 @@ This project is a full-stack machine learning application that predicts diabetes
 ### Local Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/diabetes-prediction.git
-cd diabetes-prediction
+git clone https://github.com/jsumbo/mlop-pipeline-summative.git
+cd mlop-pipeline-summative
 ```
 
 2. Create and activate virtual environment:
@@ -77,7 +77,7 @@ diabetes-prediction/
 ```
 
 ## Model Training
-The model training process is documented in `model_training/diabetes-prediction-with-89-accuracy.ipynb`. The notebook includes:
+The model training process is documented in `model_training/diabetes-prediction.ipynb`. The notebook includes:
 - Data preprocessing steps
 - Feature engineering
 - Model training and evaluation
