@@ -3,7 +3,7 @@
 A machine learning-based web application for predicting diabetes in patients using various health metrics.
 
 ## Video Demo
-[Demo Video] (https://drive.google.com/drive/folders/1FiJSB7c2m65pjFIgywCorIoK1V5AJ8z-?usp=sharing)  
+[Demo Video](https://drive.google.com/drive/folders/1FiJSB7c2m65pjFIgywCorIoK1V5AJ8z-?usp=sharing)  
 
 ## Project Description
 This project is a full-stack machine learning application that predicts diabetes in patients based on various health metrics. The system features:
