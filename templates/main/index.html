@@ -26,7 +26,7 @@
     .feature-icon {
         font-size: 2.5rem;
         margin-bottom: 1rem;
-        color: #0d6efd;
+        color: #143D60;
     }
 </style>
 {% endblock %}
@@ -36,7 +36,7 @@
 <section class="hero-section text-center">
     <div class="container">
         <h1 class="display-4 fw-bold mb-4">Assess Your Diabetes Risk</h1>
-        <p class="lead mb-5">Our AI-powered tool analyzes your health metrics to provide personalized diabetes risk assessments. Take control of your health today.</p>
+        <p class="lead mb-5">This AI-powered tool analyzes your health metrics to provide personalized diabetes risk assessments. Take control of your health today.</p>
         <a href="{% url 'predict' %}" class="btn btn-light btn-lg px-4 me-md-2">Get Your Prediction</a>
         <a href="{% url 'about' %}" class="btn btn-outline-light btn-lg px-4">Learn More</a>
     </div>
@@ -45,7 +45,7 @@
 <!-- Features Section -->
 <section class="py-5">
     <div class="container">
-        <h2 class="text-center mb-5">Why Use Our Predictor?</h2>
+        <h2 class="text-center mb-5">The Why?</h2>
         <div class="row g-4">
             <div class="col-md-4">
                 <div class="card feature-card shadow-sm">
@@ -121,91 +121,12 @@
     </div>
 </section>
 
-<!-- Testimonials Section -->
-<section class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-5">What Our Users Say</h2>
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body">
-                        <div class="small mb-3 text-warning">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                        </div>
-                        <p class="card-text">"This tool helped me identify my risk factors early. After following the recommendations, my next checkup showed significant improvements in my health markers."</p>
-                    </div>
-                    <div class="card-footer bg-transparent border-top-0">
-                        <div class="d-flex align-items-center">
-                            <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">JD</div>
-                            <div>
-                                <h6 class="mb-0">John D.</h6>
-                                <small class="text-muted">User since 2024</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body">
-                        <div class="small mb-3 text-warning">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-half"></i>
-                        </div>
-                        <p class="card-text">"The personalized insights were eye-opening. My doctor was impressed with how the recommendations aligned with medical best practices."</p>
-                    </div>
-                    <div class="card-footer bg-transparent border-top-0">
-                        <div class="d-flex align-items-center">
-                            <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">RL</div>
-                            <div>
-                                <h6 class="mb-0">Robert L.</h6>
-                                <small class="text-muted">User since 2024</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><div class="col-md-4 mb-4">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body">
-                        <div class="small mb-3 text-warning">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-half"></i>
-                        </div>
-                        <p class="card-text">"The personalized insights were eye-opening. My doctor was impressed with how the recommendations aligned with medical best practices."</p>
-                    </div>
-                    <div class="card-footer bg-transparent border-top-0">
-                        <div class="d-flex align-items-center">
-                            <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">RL</div>
-                            <div>
-                                <h6 class="mb-0">Jordan N.</h6>
-                                <small class="text-muted">User since 2024</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Call to Action -->
 <section class="py-5 text-center bg-primary text-white rounded">
     <div class="container">
         <h2 class="mb-4">Ready to Know Your Risk?</h2>
         <p class="lead mb-4">It only takes a few minutes to get your personalized diabetes risk assessment.</p>
-        <a href="{% url 'predict' %}" class="btn btn-light btn-lg px-4 me-2">Sign Up Now</a>
-        <a href="{% url 'predict' %}" class="btn btn-outline-light btn-lg px-4">Try Without Account</a>
+        <a href="{% url 'predict' %}" class="btn btn-outline-light btn-lg px-4">Try Now</a>
     </div>
 </section>
 {% endblock %}

@@ -9,7 +9,7 @@
   --success-color: #198754;
   --danger-color: #dc3545;
   --warning-color: #ffc107;
-  --info-color: #0dcaf0;
+  --info-color: #143D60;
 }
 
 body {
@@ -30,7 +30,7 @@ main {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.85);
+  color: #143D60;
   font-weight: 500;
   transition: color 0.2s ease;
 }
