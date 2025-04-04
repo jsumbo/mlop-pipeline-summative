@@ -2,11 +2,11 @@
 
 /* General styles */
 :root {
-  --primary-color: hsl(216, 73%, 7%), 73%, 7%), 46%, 5%);
-  --secondary-color: #6c757d;
+  --primary-color: #183B4E;
+  --secondary-color: #27548A;
   --light-color: #f8f9fa;
   --dark-color: #212529;
-  --success-color: #198754;
+  --success-color: #A0C878;
   --danger-color: #dc3545;
   --warning-color: #ffc107;
   --info-color: #0dcaf0;
