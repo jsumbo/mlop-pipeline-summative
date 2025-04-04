@@ -25,34 +25,8 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link {% if request.path == '/' %}active{% endif %}" href="{% url 'index' %}">Home</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link {% if 'predict' in request.path %}active{% endif %}" href="{% url 'predict' %}">Predict Risk</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link {% if 'about' in request.path %}active{% endif %}" href="{% url 'about' %}">About</a>
-                        </li>
-                        {% if user.is_authenticated %}
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown">
-                                {{ user.username }}
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="userDropdown">
-                                <li><a class="dropdown-item" href="{% url 'predict' %}">My Profile</a></li>
-                                <li><a class="dropdown-item" href="{% url 'upload' %}">Refine model</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="{% url 'logout' %}">Logout</a></li>
-                            </ul>
-                        </li>
-                        {% else %}
-                        <li class="nav-item">
-                            <a class="nav-link {% if 'login' in request.path %}active{% endif %}" href="{% url 'login' %}">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {% if 'register' in request.path %}active{% endif %}" href="{% url 'signup' %}">Register</a>
-                        </li>
-                        {% endif %}
                     </ul>
                 </div>
             </div>
